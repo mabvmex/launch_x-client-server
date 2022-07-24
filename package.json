@@ -1,0 +1,22 @@
+{
+  "name": "launch_x-prismadb",
+  "version": "1.0.0",
+  "description": "Proyecto de conexión a base de datos con PrismaDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "test ./node_modules/.lib/jest"
+  },
+  "author": "mabvmex",
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "eslint": "^8.16.0",
+    "express": "^4.18.1",
+    "jest": "^28.1.0",
+    "prisma": "^3.15.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.14.0",
+    "env": "^0.0.2"
+  }
+}
